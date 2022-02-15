@@ -107,6 +107,12 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 ## Classes
 
+- In Python, there is no existence of “Private” instance variables  (Yeah, this is so OO...)
+- use robot class to introduce concept
+- use protein + domain classed to show
+  - a class inside a class
+  - encapsulation
+
 ### Inheritance?
 
 ## Modules
