@@ -9,8 +9,6 @@ File -> Setting -> Plugins -> Marketplace -> Edutools -> install
 ### Python Course
 File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Python
 
-If you don't see the green triangle, you have to 'Add Configuration...'
-
 ## Variables
 ### Numbers
 
@@ -56,9 +54,17 @@ You have to import a module to use arrays.
 - nested lists
 - ? Tuples: The only significant difference between tuples and lists is that tuples are immutable
 - List comprehension?
+- sort
 
 ## Loops
 ### For
+
+Use enumerate to get the index with the element as you iterate:
+```
+  for index, item in enumerate(items):
+    print(index, item)
+```
+
 ### While
 
 ### break / continue
@@ -67,7 +73,7 @@ You have to import a module to use arrays.
 Python also allows loop statements to have an else clause. It is executed when the loop terminates through exhaustion
 of the iterable (with for) or when the condition becomes False (with while), but not when the loop is terminated by a break statement.
 
-## If / else / elif / case
+## If / else / elif 
 
 -> Run through two synced lists (gene id and gene name)
 
@@ -100,6 +106,8 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - Settings -> Tools -> Python Integrated Tools
 
 ## Classes
+
+### Inheritance?
 
 ## Modules
 
