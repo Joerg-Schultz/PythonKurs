@@ -80,8 +80,6 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 -> go back to gene id and name example. Now use a hash. Find the name of the gene id 123
 
-## Documentation
-
 ## Read files
 
 ## Regex
@@ -93,11 +91,21 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - skip args and kwargs
 - skip recursion
 
+## Documentation
+
+- https://realpython.com/documenting-python-code/#documenting-your-python-code-base-using-docstrings
+- reStructuredText Example
+- Stub from PyCharm
+- https://www.jetbrains.com/help/pycharm/documenting-source-code.html
+- Settings -> Tools -> Python Integrated Tools
+
 ## Classes
 
 ## Modules
 
 Which modules are frequently used? Can one of the Python afficionados show some?
+
+## Git / GitHub in PyCharm
 
 ## Exam
 
