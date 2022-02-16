@@ -26,18 +26,22 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 
 ### Boolean
 
+## Debugger
+
+**Exercise** swap the value of two variables, then follow in debugger
+
 ## Mathematical operations
 
 - assignment
 - math
 - show addition of int and String
-Switch the value of two variables
+
+## If / else / elif 
 
 Comparisons
 - == same value
 - The operators 'is' and 'is not' test for object identity: x is y is true if and only if x and y are the same object.
 - Comparisons can be chained arbitrarily, and expressions like a < b < c 
-## Debugger
 
 ## List
 Don't talk about arrays here, just lists.
@@ -59,6 +63,8 @@ You have to import a module to use arrays.
 ## Loops
 ### For
 
+**Exercise** run through a list of genes and report in which position there is a specific gene
+
 Use enumerate to get the index with the element as you iterate:
 ```
   for index, item in enumerate(items):
@@ -67,17 +73,17 @@ Use enumerate to get the index with the element as you iterate:
 
 ### While
 
+**Exercise** rewrite the run through list code with while
+
 ### break / continue
 ### else
 
 Python also allows loop statements to have an else clause. It is executed when the loop terminates through exhaustion
 of the iterable (with for) or when the condition becomes False (with while), but not when the loop is terminated by a break statement.
 
-## If / else / elif 
+## Dictionaries
 
--> Run through two synced lists (gene id and gene name)
-
-## Dictionaries (aka Hashes :D )
+**Exercise** run through two linked lists (genes with name and species) to find the species of a specific gene
 
 - Dictionaries are enclosed in curly braces, e.g., dct = {'key1' : "value1", 'key2' : "value2"}.
 - A pair of braces creates an empty dictionary: {}.
@@ -85,15 +91,17 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - if key in dictionary
 - "bla" in dictionary
 
--> go back to gene id and name example. Now use a hash. Find the name of the gene id 123
+**Exercise** go back to gene name and species example. Now use a hash. Find the name of the gene id 123
 
 ## Read files
 
 - split() lines on \t
 - string = string.replace("bla", "blub")
-- exercise: find all up-regulated protein kinases
+- with open() as bla: for line in bla
 
-## Regex (shift below)
+**Exercise** find all up-regulated kinases ("kinase" in element)
+
+## Regex
 
 - import re
 - phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
@@ -101,12 +109,18 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - Call the Match object’s group() (or groups()) method to return a string of the actual matched text
 - re.split() — Regular expression operations
 
+**Exercise** find all upregulated [P|p]rotein\s+[K|k]inases
+
 ## Functions
+
+**Exercise** write a fasta parser
 
 - keyword arguments (named parameters)
 - scope (no example)
 - skip args and kwargs
 - skip recursion
+
+**Exercise** extract parser to function
 
 ## Documentation
 
@@ -116,6 +130,9 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - https://www.jetbrains.com/help/pycharm/documenting-source-code.html
 - Settings -> Tools -> Python Integrated Tools
 
+**Exercise** write documentation for function
+TODO: can I extract docs to html?
+
 ## Classes
 
 - In Python, there is no existence of “Private” instance variables  (Yeah, this is so OO...)
@@ -123,6 +140,10 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - use protein + domain classed to show
   - a class inside a class
   - encapsulation
+
+**Exercise** implement robot class
+
+**Exercise** let the fasta parser return a list of Protein objects
 
 ### Inheritance?
 
@@ -134,9 +155,11 @@ to distinguish a package from a directory that just happens to contain a bunch o
 
 ### build your own
 
-TODO
+**Exercise** build your own fasta parser package
 
-Which modules are frequently used? Can one of the Python afficionados show some?
+Which modules are frequently used?
+
+**Showcase** bluetooth and ML in my python sript
 
 ## Git / GitHub in PyCharm
 
