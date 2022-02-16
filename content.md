@@ -124,6 +124,8 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 ## Documentation
 
+optional, depends on time
+
 - https://realpython.com/documenting-python-code/#documenting-your-python-code-base-using-docstrings
 - reStructuredText Example
 - Stub from PyCharm
@@ -131,7 +133,14 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - Settings -> Tools -> Python Integrated Tools
 
 **Exercise** write documentation for function
-TODO: can I extract docs to html?
+
+### Sphinx
+
+- https://www.sphinx-doc.org/en/master/
+- Go to Terminal window in PyCharm
+- pip install -U sphinx
+- Tools Sphinx Quickstart (no 'ö' in name :-)
+- .\make html in Terminal
 
 ## Classes
 
@@ -145,7 +154,9 @@ TODO: can I extract docs to html?
 
 **Exercise** let the fasta parser return a list of Protein objects
 
-### Inheritance?
+### Inheritance
+
+skip, too much
 
 ## Modules / Packages
 
@@ -159,7 +170,13 @@ to distinguish a package from a directory that just happens to contain a bunch o
 
 Which modules are frequently used?
 
-**Showcase** bluetooth and ML in my python sript
+- https://pypi.org/
+- https://pypi.org/project/biopython/
+- Show Bio.SeqIO.parse() fasta parser
+- Bluetooth
+- edge Impulse
+
+**Showcase** bluetooth and ML in my python script
 
 ## Git / GitHub in PyCharm
 
