@@ -88,9 +88,11 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 ## Read files
 
+- split() lines on \t
+- exercise: find all up-regulated protein kinases
+
 ## Regex
 
-- (split()) no regex but fits here
 - import re
 - phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
 - Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
