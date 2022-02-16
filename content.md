@@ -81,7 +81,8 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 - Dictionaries are enclosed in curly braces, e.g., dct = {'key1' : "value1", 'key2' : "value2"}.
 - A pair of braces creates an empty dictionary: {}.
-- keys() + values() + items()
+- keys() + values() + items(
+- if key in dictionary
 - "bla" in dictionary
 
 -> go back to gene id and name example. Now use a hash. Find the name of the gene id 123
@@ -89,6 +90,7 @@ of the iterable (with for) or when the condition becomes False (with while), but
 ## Read files
 
 - split() lines on \t
+- string.replace("bla", "blub")
 - exercise: find all up-regulated protein kinases
 
 ## Regex
