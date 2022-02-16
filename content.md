@@ -178,7 +178,23 @@ Which modules are frequently used?
 
 **Showcase** bluetooth and ML in my python script
 
-## Git / GitHub in PyCharm
+## AddOns
+
+### Git / GitHub in PyCharm
+
+### Exception Handling
+
+https://www.geeksforgeeks.org/python-exception-handling/
+```
+try:
+  a = 5 / 0
+except: # except ZeroDivisionError: 
+  print("Error")
+else: # only if try does not cause an exception
+  print("We did it!")
+finally: # always executed
+  print("And finished")
+```
 
 ## Exam
 
