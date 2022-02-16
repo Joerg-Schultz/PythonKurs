@@ -90,10 +90,10 @@ of the iterable (with for) or when the condition becomes False (with while), but
 ## Read files
 
 - split() lines on \t
-- string.replace("bla", "blub")
+- string = string.replace("bla", "blub")
 - exercise: find all up-regulated protein kinases
 
-## Regex
+## Regex (shift below)
 
 - import re
 - phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
@@ -126,7 +126,15 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 ### Inheritance?
 
-## Modules
+## Modules / Packages
+
+A package is a collection of Python modules: while a module is a single Python file, 
+a package is a directory of Python modules containing an additional __init__.py file, 
+to distinguish a package from a directory that just happens to contain a bunch of Python scripts.
+
+### build your own
+
+TODO
 
 Which modules are frequently used? Can one of the Python afficionados show some?
 
