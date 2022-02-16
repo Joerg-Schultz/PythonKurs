@@ -90,6 +90,13 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 ## Regex
 
+- (split()) no regex but fits here
+- import re
+- phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
+- Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
+- Call the Match object’s group() (or groups()) method to return a string of the actual matched text
+- re.split() — Regular expression operations
+
 ## Functions
 
 - keyword arguments (named parameters)
