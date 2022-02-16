@@ -1,4 +1,10 @@
+
 def fasta_parser(file):
+    """
+
+    :param file: fasta formatted text file
+    :return: Dictionary with keys seqs id and value sequence
+    """
     protein_seq = ""
     protein_id = ""
     result = {}
