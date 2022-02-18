@@ -41,6 +41,12 @@ File -> Setting -> Plugins -> Marketplace -> Edutools -> install
 In PyCharm
 File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Python
 
+## Intro
+
+- Show Python Interpreter with print("Hello World")
+- Show writing a text file in Editor and run it on the command line
+- Start PyCharm, write exactly the same file and run it (i) on the command line and (ii) in PyCharm
+
 **Exercise** Course 'Introduction'
 
 ## Variables
@@ -60,6 +66,15 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 
 ### Boolean
 
+- introduce the concept True/False (1/0)
+- introduce equal, and, or
+
+**Exercise** Variables
+- Variable Definition
+- Undefined Variable
+- Variable Types
+- Type Conversion
+
 ## Debugger
 
 **Exercise** swap the value of two variables, then follow in debugger
@@ -70,12 +85,20 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 - math
 - show addition of int and String
 
+**Exercises** Variables
+- Arithmetic Operators
+- Assignments
+- Boolean Operators
+- Comparison Operators
+
 ## If / else / elif 
 
 Comparisons
 - == same value
 - The operators 'is' and 'is not' test for object identity: x is y is true if and only if x and y are the same object.
 - Comparisons can be chained arbitrarily, and expressions like a < b < c 
+
+**Exercise** Condition expressions
 
 ## List
 Don't talk about arrays here, just lists.
@@ -89,13 +112,32 @@ You have to import a module to use arrays.
 - Empty lists are considered False in Python
 - in keyword
 - Stacks and Queues?
-- nested lists
+- nested lists = matrices
 - ? Tuples: The only significant difference between tuples and lists is that tuples are immutable
 - List comprehension?
 - sort
 
+**Exercise** Data structures
+- Lists introduction
+- Lists operations
+- List items
+- Nested lists
+- Join method
+
+## Strings
+
+I put them after lists, as many string operations make only sense if you see Strings as lists of characters
+
+**Exercise** Strings
+
+
 ## Loops
 ### For
+
+**Exercise** Loops
+- For loop
+- Loop over a string
+- Nested for Loop
 
 **Exercise** run through a list of genes and report in which position there is a specific gene
 
@@ -106,14 +148,19 @@ Use enumerate to get the index with the element as you iterate:
 ```
 
 ### While
-
-**Exercise** rewrite the run through list code with while
-
 ### break / continue
 ### else
 
 Python also allows loop statements to have an else clause. It is executed when the loop terminates through exhaustion
 of the iterable (with for) or when the condition becomes False (with while), but not when the loop is terminated by a break statement.
+
+**Exercise** Loops
+- while Loop
+- break keyword
+- Else with Loops
+- Continue keyword
+
+**Exercise** rewrite the run through list code with while
 
 ## Dictionaries
 
@@ -125,6 +172,11 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - if key in dictionary
 - "bla" in dictionary
 
+**Exercise** Data structures
+- Dictionaries
+- Dictionaries keys() and values()
+- In keyword
+
 **Exercise** go back to gene name and species example. Now use a hash. Find the name of the gene id 123
 
 ## Read files
@@ -132,6 +184,8 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - split() lines on \t
 - string = string.replace("bla", "blub")
 - with open() as bla: for line in bla
+
+**Exercise** File input output
 
 **Exercise** find all up-regulated kinases ("kinase" in element)
 
@@ -153,6 +207,10 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - scope (no example)
 - skip args and kwargs
 - skip recursion
+
+**Exercise** Functions
+- except Args and kwargs
+- except Recursion
 
 **Exercise** extract parser to function
 
@@ -184,13 +242,15 @@ optional, depends on time
   - a class inside a class
   - encapsulation
 
+**Exercise** Classes and Objects
+
 **Exercise** implement robot class
 
 **Exercise** let the fasta parser return a list of Protein objects
 
 ### Inheritance
 
-skip, too much
+Depending on how much time we have, show a Robot with a light on its head
 
 ## Modules / Packages
 
@@ -198,10 +258,14 @@ A package is a collection of Python modules: while a module is a single Python f
 a package is a directory of Python modules containing an additional __init__.py file, 
 to distinguish a package from a directory that just happens to contain a bunch of Python scripts.
 
+**Exercise** Modules and Packages
+- except Executing modules as scripts
+
 ### build your own
 
 **Exercise** build your own fasta parser package
 
+### use pre-build modules
 Which modules are frequently used?
 
 - https://pypi.org/
