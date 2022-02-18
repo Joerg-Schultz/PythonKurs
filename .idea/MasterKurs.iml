@@ -6,6 +6,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Introduction to Python" />
   </component>
   <component name="ReSTService">
     <option name="DOC_DIR" value="$MODULE_DIR$" />
