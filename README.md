@@ -189,16 +189,6 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 **Exercise** find all up-regulated kinases ("kinase" in element)
 
-## Regex
-
-- import re
-- phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
-- Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
-- Call the Match object’s group() (or groups()) method to return a string of the actual matched text
-- re.split() — Regular expression operations
-
-**Exercise** find all upregulated [P|p]rotein\s+[K|k]inases
-
 ## Functions
 
 Show how to change the read file code into a function. With return value.
@@ -247,6 +237,16 @@ Which modules are frequently used?
 - edge Impulse
 
 **Showcase** bluetooth and ML in my python script
+
+## Regex
+
+- import re
+- phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
+- Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
+- Call the Match object’s group() (or groups()) method to return a string of the actual matched text
+- re.split() — Regular expression operations
+
+**Exercise** find all upregulated [P|p]rotein\s+[K|k]inases
 
 ## Documentation
 
