@@ -201,7 +201,9 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 ## Functions
 
-**Exercise** write a fasta parser
+Show how to change the read file code into a function. With return value.
+Then add a word to search for as parameter.
+Finally, show default arguments. If no parameter is given, we search for 'excellent'.
 
 - keyword arguments (named parameters)
 - scope (no example)
@@ -212,7 +214,39 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - except Args and kwargs
 - except Recursion
 
-**Exercise** extract parser to function
+**Exercise** write a function which takes a protein function as input and returns a list of genes
+which have this function and are up-regulated
+
+
+**Exercise (Optional)** write a fasta parser
+
+**Exercise (Optional)** extract parser to function
+
+## Modules / Packages
+
+A package is a collection of Python modules: while a module is a single Python file, 
+a package is a directory of Python modules containing an additional __init__.py file, 
+to distinguish a package from a directory that just happens to contain a bunch of Python scripts.
+
+**Exercise** Modules and Packages
+- except Executing modules as scripts
+
+### build your own
+
+**Exercise** Extract up-regulated function finder to module and then to package
+
+**Exercise (Optional)** build your own fasta parser package
+
+### use pre-build modules
+Which modules are frequently used?
+
+- https://pypi.org/
+- https://pypi.org/project/biopython/
+- Show Bio.SeqIO.parse() fasta parser
+- Bluetooth
+- edge Impulse
+
+**Showcase** bluetooth and ML in my python script
 
 ## Documentation
 
@@ -246,35 +280,12 @@ optional, depends on time
 
 **Exercise** implement robot class
 
-**Exercise** let the fasta parser return a list of Protein objects
+**Exercise** let the up regulated genes finder return a list of Protein objects
+**Exercise (Optional)** let the fasta parser return a list of Protein objects
 
 ### Inheritance
 
 Depending on how much time we have, show a Robot with a light on its head
-
-## Modules / Packages
-
-A package is a collection of Python modules: while a module is a single Python file, 
-a package is a directory of Python modules containing an additional __init__.py file, 
-to distinguish a package from a directory that just happens to contain a bunch of Python scripts.
-
-**Exercise** Modules and Packages
-- except Executing modules as scripts
-
-### build your own
-
-**Exercise** build your own fasta parser package
-
-### use pre-build modules
-Which modules are frequently used?
-
-- https://pypi.org/
-- https://pypi.org/project/biopython/
-- Show Bio.SeqIO.parse() fasta parser
-- Bluetooth
-- edge Impulse
-
-**Showcase** bluetooth and ML in my python script
 
 ## AddOns
 
