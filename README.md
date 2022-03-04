@@ -4,7 +4,7 @@
 ### Mail
 Dear Students,\
 the starting day of our course is getting closer. As pointed out in WueStudy the topic will not be 'Linux and Perl'.
-Rather, we will learn programming in Python (OK, first steps of ;-). As we have only five days, I would hate it
+Rather, we will learn programming in Python (OK, first steps of ;)). As we have only five days, I would hate it
 if we loose precious time for installing the needed resources. Thus, I want everyone of you to have the
 following installed and running on the computer you are gonne work with:
 
