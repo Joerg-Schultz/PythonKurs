@@ -238,36 +238,6 @@ Which modules are frequently used?
 
 **Showcase** bluetooth and ML in my python script
 
-## Regex
-
-- import re
-- phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
-- Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
-- Call the Match object’s group() (or groups()) method to return a string of the actual matched text
-- re.split() — Regular expression operations
-
-**Exercise** find all upregulated [P|p]rotein\s+[K|k]inases
-
-## Documentation
-
-optional, depends on time
-
-- https://realpython.com/documenting-python-code/#documenting-your-python-code-base-using-docstrings
-- reStructuredText Example
-- Stub from PyCharm
-- https://www.jetbrains.com/help/pycharm/documenting-source-code.html
-- Settings -> Tools -> Python Integrated Tools
-
-**Exercise** write documentation for function
-
-### Sphinx
-
-- https://www.sphinx-doc.org/en/master/
-- Go to Terminal window in PyCharm
-- pip install -U sphinx
-- Tools Sphinx Quickstart (no 'ö' in name :-)
-- .\make html in Terminal
-
 ## Classes
 
 - In Python, there is no existence of “Private” instance variables  (Yeah, this is so OO...)
@@ -287,6 +257,17 @@ optional, depends on time
 
 Depending on how much time we have, show a Robot with a light on its head
 
+## Regex
+
+- import re
+- phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d') -> r = raw string?
+- Pass the string you want to search into the Regex object’s search() method. This returns a Match object.
+- Call the Match object’s group() (or groups()) method to return a string of the actual matched text
+- re.split() — Regular expression operations
+
+**Exercise** find all upregulated [P|p]rotein\s+[K|k]inases
+
+
 ## AddOns
 
 ### Git / GitHub in PyCharm
@@ -304,6 +285,26 @@ else: # only if try does not cause an exception
 finally: # always executed
   print("And finished")
 ```
+
+### Documentation
+
+optional, depends on time
+
+- https://realpython.com/documenting-python-code/#documenting-your-python-code-base-using-docstrings
+- reStructuredText Example
+- Stub from PyCharm
+- https://www.jetbrains.com/help/pycharm/documenting-source-code.html
+- Settings -> Tools -> Python Integrated Tools
+
+**Exercise** write documentation for function
+
+#### Sphinx
+
+- https://www.sphinx-doc.org/en/master/
+- Go to Terminal window in PyCharm
+- pip install -U sphinx
+- Tools Sphinx Quickstart (no 'ö' in name :-)
+- .\make html in Terminal
 
 ## Exam
 
