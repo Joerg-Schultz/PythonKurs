@@ -7,9 +7,9 @@ class Robot:
         self.right_arm_raised = False
         self.internal_position = (0, 0)  # x,y coordinates of the robots position list of two values
 
-#    # print the status of an instance of the Robot class
-#    def __str__(self):
-#        return f"Name: {self.name}\n\tLeft arm is up: {self.left_arm_raised}\n\tI am at position {self.position()}"
+    # print the status of an instance of the Robot class
+    def __str__(self):
+        return f"Name: {self.name}\n\tLeft arm is up: {self.left_arm_raised}\n\tI am at position {self.position()}"
 
     def position(self):
         return self.internal_position
