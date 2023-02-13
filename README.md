@@ -4,7 +4,8 @@
 ### Mail
 Dear Students,\
 the starting day of our course is getting closer. As pointed out in WueStudy the topic will not be 'Linux and Perl'.
-Rather, we will learn programming in Python (OK, first steps of 😉). As we have only five days, I would hate it
+Rather, we will learn programming in Python (OK, first steps of 😉). The course will be completely online, as I want 
+you to use your own computer to start programming. As we have only five days, I would hate it
 if we loose precious time for installing the needed resources. Thus, I want everyone of you to have the
 following installed and running on the computer you are gonne work with:
 
@@ -20,6 +21,7 @@ videos explaining every detail of the installation process. And, as you will see
 is always there to help!
 
 OK, and if you got completely stuck 😉 ask for help in the course forum.
+And as a last note, we will start every day at 10:00. End is usualy between four and five, depending on when your brain starts melting.
 
 Looking forward to our Python journey,\
 Joerg Schultz
