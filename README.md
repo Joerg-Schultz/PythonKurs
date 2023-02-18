@@ -58,6 +58,8 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 
 ### Strings
 - 'bla' and "blub"
+- Show addition int + string
+  - type conversion
 - print(f"{bla}")
 - String multiplication: String * 2
 - Strings are arrays already -> positions (Maybe use this to introduce array concepts?)
@@ -71,6 +73,9 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 
 **Exercise** Variables
 - Variable Definition
+  - Run this without any changes locally.
+  - Show error, show how you can jump to code. 
+  - Once everything is fixed, -> check
 - Undefined Variable
 - Variable Types
 - Type Conversion
@@ -90,15 +95,6 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 - Assignments
 - Boolean Operators
 - Comparison Operators
-
-## If / else / elif 
-
-Comparisons
-- == same value
-- The operators 'is' and 'is not' test for object identity: x is y is true if and only if x and y are the same object.
-- Comparisons can be chained arbitrarily, and expressions like a < b < c 
-
-**Exercise** Condition expressions
 
 ## List
 Don't talk about arrays here, just lists.
@@ -124,6 +120,16 @@ You have to import a module to use arrays.
 - Nested lists
 - Join method
 
+## If / else / elif 
+
+Conditional code execution. Indentation is syntax.
+Comparisons
+- == same value
+- The operators 'is' and 'is not' test for object identity: x is y is true if and only if x and y are the same object.
+- Comparisons can be chained arbitrarily, and expressions like a < b < c 
+
+**Exercise** Condition expressions
+
 ## Strings
 
 I put them after lists, as many string operations make only sense if you see Strings as lists of characters
@@ -141,11 +147,13 @@ I put them after lists, as many string operations make only sense if you see Str
 
 **Exercise** run through a list of genes and report in which position there is a specific gene
 
+<!-- 
 Use enumerate to get the index with the element as you iterate:
 ```
   for index, item in enumerate(items):
     print(index, item)
 ```
+-->
 
 ### While
 ### break / continue
@@ -157,6 +165,7 @@ of the iterable (with for) or when the condition becomes False (with while), but
 **Exercise** Loops
 - while Loop
 - break keyword
+- Fix infinite Execution
 - Else with Loops
 - Continue keyword
 
@@ -174,7 +183,9 @@ of the iterable (with for) or when the condition becomes False (with while), but
 
 **Exercise** Data structures
 - Dictionaries
+- Add items from list
 - Dictionaries keys() and values()
+- Dictionary keys
 - In keyword
 
 **Exercise** go back to gene name and species example. Now use a hash. Find the name of the gene id 123
