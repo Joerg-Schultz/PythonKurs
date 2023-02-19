@@ -169,9 +169,14 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - break keyword
 - Fix infinite Execution
 - Else with Loops
+- Else with Loops 2
 - Continue keyword
 
 **Exercise** rewrite the run through list code with while
+
+**Exercise** Loops
+- List Comprehension
+- Nested List Comprehension
 
 ## Dictionaries
 
@@ -214,6 +219,7 @@ Finally, show default arguments. If no parameter is given, we search for 'excell
 - skip recursion
 
 **Exercise** Functions
+- fibonacci change `print(fib(10))` to `print(fib(22))`
 - except Args and kwargs
 - except Recursion
 
@@ -255,7 +261,7 @@ Which modules are frequently used?
 
 - In Python, there is no existence of “Private” instance variables  (Yeah, this is so OO...)
 - use robot class to introduce concept
-- use protein + domain classed to show
+- use protein + domain classes to show
   - a class inside a class
   - encapsulation
 
@@ -270,6 +276,9 @@ Which modules are frequently used?
 
 Depending on how much time we have, show a Robot with a light on its head
 
+- `class Student(Person)`
+- `super()`
+
 ## Regex
 
 - import re
@@ -278,7 +287,7 @@ Depending on how much time we have, show a Robot with a light on its head
 - Call the Match object’s group() (or groups()) method to return a string of the actual matched text
 - re.split() — Regular expression operations
 
-**Exercise** find all upregulated [P|p]rotein\s+[K|k]inases
+**Exercise** find all up-regulated [P|p]rotein\s+[K|k]inases
 
 
 ## AddOns
