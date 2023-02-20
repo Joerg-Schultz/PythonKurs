@@ -49,6 +49,8 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 - Show writing a text file in Editor and run it on the command line
 - Start PyCharm, write exactly the same file and run it (i) on the command line and (ii) in PyCharm
 
+[hello.py](hello.py)
+
 **Exercise** Course 'Introduction'
 
 ## Variables
@@ -73,6 +75,8 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 - introduce the concept True/False (1/0)
 - introduce equal, and, or
 
+[variables.py](variables.py)
+
 **Exercise** Variables
 - Variable Definition
   - Run this without any changes locally.
@@ -85,6 +89,8 @@ File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Pyth
 ## Debugger
 
 **Exercise** swap the value of two variables, then follow in debugger
+
+[swap_variables.py](swap_variables.py)
 
 ## Mathematical operations
 
@@ -115,6 +121,8 @@ You have to import a module to use arrays.
 - List comprehension?
 - sort
 
+[lists.py](lists.py)
+
 **Exercise** Data structures
 - Lists introduction
 - Lists operations
@@ -129,6 +137,8 @@ Comparisons
 - == same value
 - The operators 'is' and 'is not' test for object identity: x is y is true if and only if x and y are the same object.
 - Comparisons can be chained arbitrarily, and expressions like a < b < c 
+
+[conditions.py](conditions.py)
 
 **Exercise** Condition expressions
 
