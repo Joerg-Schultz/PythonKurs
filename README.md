@@ -18,6 +18,7 @@ File -> Setting -> Plugins -> Marketplace -> Edutools -> install
 In PyCharm
 File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Python
 
+# Day 1
 ## Intro
 
 - Show Python Interpreter with print("Hello World")
@@ -123,6 +124,7 @@ I put them after lists, as many string operations make only sense if you see Str
 
 **Exercise** Strings
 
+# Day 2
 
 ## Loops
 ### For
@@ -275,11 +277,11 @@ Depending on how much time we have, show a Robot with a light on its head
 **Exercise** find all up-regulated [P|p]rotein\s+[K|k]inases
 
 
-## AddOns
+# AddOns
 
-### Git / GitHub in PyCharm
+## Git / GitHub in PyCharm
 
-### Exception Handling
+## Exception Handling
 
 https://www.geeksforgeeks.org/python-exception-handling/
 ```
@@ -293,7 +295,9 @@ finally: # always executed
   print("And finished")
 ```
 
-### Documentation
+## Documentation
+
+### Standard
 
 optional, depends on time
 
@@ -305,7 +309,7 @@ optional, depends on time
 
 **Exercise** write documentation for function
 
-#### Sphinx
+### Sphinx
 
 - https://www.sphinx-doc.org/en/master/
 - Go to Terminal window in PyCharm
@@ -313,6 +317,6 @@ optional, depends on time
 - Tools Sphinx Quickstart (no 'ö' in name :-)
 - .\make html in Terminal
 
-## Exam
+# Exam
 
-Solve Rosalind tests.
+Solve [Rosalind](https://rosalind.info/) tests. You find the enrollment link in the Moodle course.
