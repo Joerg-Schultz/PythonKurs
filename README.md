@@ -197,8 +197,30 @@ of the iterable (with for) or when the condition becomes False (with while), but
 **Exercise** File input output
 
 **Exercise** find all up-regulated kinases ("kinase" in element)
+- find all significant up-regulated genes in `data/cor_vs_trap.csv`
+  significant means the last column (i.e. padj) < 0.01
+  upregulated means the third column (logfold change) > 0
+    ```
+    open the file
+    read one line after the other
+      for each line
+        split it on the ","
+        get the first (name), third (logfoldchange), last (padj) column
+        if padj < 0.01 and logfold > 0
+          add the name to a list
+    print the length of list 
+    ```
 - find all kinases in `data/Dm_Interproscan.tsv`
-- find all up-regulated genes in `data/cor_vs_trap.csv`
+  ```
+  open the file
+  read one line after the other
+    for each line
+      split on "\t"
+      get the first column (name), the fourth column (database) and sixth column (description)
+      if the database is Pfam and the description contains the word 'kinase'
+        add the name to a list
+  print the length of the list
+    ```
 - now combine these two to count all up-regulated kinases
 
 ## Functions
