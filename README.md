@@ -136,13 +136,11 @@ I put them after lists, as many string operations make only sense if you see Str
 
 **Exercise** run through a list of genes and report in which position there is a specific gene
 
-<!-- 
 Use enumerate to get the index with the element as you iterate:
 ```
   for index, item in enumerate(items):
     print(index, item)
 ```
--->
 
 ### While
 ### break / continue
@@ -150,6 +148,8 @@ Use enumerate to get the index with the element as you iterate:
 
 Python also allows loop statements to have an else clause. It is executed when the loop terminates through exhaustion
 of the iterable (with for) or when the condition becomes False (with while), but not when the loop is terminated by a break statement.
+
+[loops.py](loops.py)
 
 **Exercise** Loops
 - while Loop
@@ -175,6 +175,8 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - if key in dictionary
 - "bla" in dictionary
 
+[dictionaries.py](dictionaries.py)
+
 **Exercise** Data structures
 - Dictionaries
 - Add items from list
@@ -183,6 +185,8 @@ of the iterable (with for) or when the condition becomes False (with while), but
 - In keyword
 
 **Exercise** go back to gene name and species example. Now use a hash. Find the name of the gene id 123
+
+# Day 3
 
 ## Read files
 
