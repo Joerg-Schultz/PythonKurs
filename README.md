@@ -197,6 +197,9 @@ of the iterable (with for) or when the condition becomes False (with while), but
 **Exercise** File input output
 
 **Exercise** find all up-regulated kinases ("kinase" in element)
+- find all kinases in `data/Dm_Interproscan.tsv`
+- find all up-regulated genes in `data/cor_vs_trap.csv`
+- now combine these two to count all up-regulated kinases
 
 ## Functions
 
