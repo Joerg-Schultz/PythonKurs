@@ -348,4 +348,10 @@ optional, depends on time
 
 # Exam
 
-Solve [Rosalind](https://rosalind.info/) tests. You find the enrollment link in the Moodle course.
+As there seems to be a problem with registering at Rosalind via E-Mail, there are two alternatives to pass this course:
+- Register at Rosalind (using alternatives to E-Mail and Password). Solve [Rosalind](https://rosalind.info/) tests. You find the enrollment link in the Moodle course.
+- Write a program which reports the domains found in the longest protein of the Venus Flytrap. 
+  You can find the sequences of the predicted proteins (`Dm_proteins.fasta`) and the results of the
+  domain prediction (`Dm_Interproscan.tsv`) in the `data` directory of this repository. E-Mail the code to me.
+
+And yes, you have to solve only one of these ;-)
