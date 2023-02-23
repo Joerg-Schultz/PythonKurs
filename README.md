@@ -247,6 +247,8 @@ which have this function and are up-regulated
 
 **Exercise (Optional)** extract parser to function
 
+# Day 4
+
 ## Modules / Packages
 
 A package is a collection of Python modules: while a module is a single Python file, 
@@ -275,7 +277,7 @@ Which modules are frequently used?
 
 ## Classes
 
-- In Python, there is no existence of “Private” instance variables  (Yeah, this is so OO...)
+- In Python, there is no existence of “Private” instance variables
 - use robot class to introduce concept
 - use protein + domain classes to show
   - a class inside a class
