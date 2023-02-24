@@ -249,6 +249,30 @@ which have this function and are up-regulated
 
 # Day 4
 
+## Classes
+
+- In Python, there is no existence of “Private” instance variables
+- use robot class to introduce concept
+- use protein + domain classes to show
+  - a class inside a class
+  - encapsulation
+
+**Exercise** Classes and Objects
+
+**Exercise** implement robot class
+
+**Exercise** let the up regulated genes finder return a list of Protein objects
+**Exercise (Optional)** let the fasta parser return a list of Protein objects
+
+### Inheritance
+
+Depending on how much time we have, show a Robot with a light on its head
+
+- `class Student(Person)`
+- `super()`
+
+# Day 5
+
 ## Modules / Packages
 
 A package is a collection of Python modules: while a module is a single Python file, 
@@ -275,27 +299,9 @@ Which modules are frequently used?
 
 **Showcase** bluetooth and ML in my python script
 
-## Classes
+## Git / GitHub in PyCharm
 
-- In Python, there is no existence of “Private” instance variables
-- use robot class to introduce concept
-- use protein + domain classes to show
-  - a class inside a class
-  - encapsulation
-
-**Exercise** Classes and Objects
-
-**Exercise** implement robot class
-
-**Exercise** let the up regulated genes finder return a list of Protein objects
-**Exercise (Optional)** let the fasta parser return a list of Protein objects
-
-### Inheritance
-
-Depending on how much time we have, show a Robot with a light on its head
-
-- `class Student(Person)`
-- `super()`
+# AddOns
 
 ## Regex
 
@@ -306,11 +312,6 @@ Depending on how much time we have, show a Robot with a light on its head
 - re.split() — Regular expression operations
 
 **Exercise** find all up-regulated [P|p]rotein\s+[K|k]inases
-
-
-# AddOns
-
-## Git / GitHub in PyCharm
 
 ## Exception Handling
 
@@ -352,7 +353,7 @@ optional, depends on time
 
 As there seems to be a problem with registering at Rosalind via E-Mail, there are two alternatives to pass this course:
 - Register at Rosalind (using alternatives to E-Mail and Password). Solve [Rosalind](https://rosalind.info/) tests. You find the enrollment link in the Moodle course.
-- Write a program which reports the domains found in the longest protein of the Venus Flytrap. 
+- Write a program which reports the Pfam domains found in the longest protein of the Venus Flytrap. 
   You can find the sequences of the predicted proteins (`Dm_proteins.fasta`) and the results of the
   domain prediction (`Dm_Interproscan.tsv`) in the `data` directory of this repository. E-Mail the code to me.
 
