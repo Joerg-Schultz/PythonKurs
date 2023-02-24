@@ -298,6 +298,7 @@ Which modules are frequently used?
 - edge Impulse
 
 **Showcase** bluetooth and ML in my python script
+**Showcase** use of BioPython to parse a fasta file
 
 ## Git / GitHub in PyCharm
 
