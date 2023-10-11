@@ -9,12 +9,16 @@ following installed and running on the computer you are gonne work with:
 - **Python** Please install the latest release from here https://www.python.org/downloads/windows/
 - **PyCharm** (The IDE we will be using) https://www.jetbrains.com/pycharm/download/#section=windows Choose 'Community' Edition (for
 the operating system you are working on)
-- **EduTools** In Pycharm: File -> Setting -> Plugins -> Marketplace -> EduTools -> install
-- **Introduction to Python** In PyCharm:  File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Python
+- **EduTools** In Pycharm:
+  - In Welcome Screen: Plugins -> Marketplace -> JetBrains Academy -> install
+  - In Project: File -> Setting -> Plugins -> Marketplace -> JetBrains Academy -> install
+- **Introduction to Python** In PyCharm:
+  - In Welcome Screen: Learn -> Enable..-> MarketPlace -> Introduction to Python
+  - In Project: File -> Learn and Teach -> Browse Courses -> Marketplace -> Introduction to Python
 
 In case you encounter any problems, Google it and find a solution. Arguably the most important skill I want to teach
 you in this course is to find solutions for you programming problems by yourself. There are tons of YouTube
-videos explaining every detail of the installation process. And, as you will see in the course, StackOverflow
+videos explaining every detail of the installation process. And, as you will see in the course, ChatGPT
 is always there to help!
 
 OK, and if you got completely stuck 😉 ask for help in the course forum.
